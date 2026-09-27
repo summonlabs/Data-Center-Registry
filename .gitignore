@@ -1,0 +1,56 @@
+# Build trees. Nothing generated is committed.
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Compiler, linker and test artefacts.
+*.obj
+*.o
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.log
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.ninja
+.ninja_deps
+.ninja_log
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+*.vcxproj*
+*.sln
+
+# Local registry stores written by the tests, tools and examples.
+*.dcrs
+*.dcrstore/
+dcr-store-*/
+registry.lock
+CURRENT
+generations/
+tmp/
+
+# Disposable smoke-test and validation folders.
+fresh-clone/
+install-prefix/
+downstream-build/
+*-out.txt
+mp-out.txt
+unit-out.txt
+bench-out.txt
+smoke/
+
+# Editor and OS noise.
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+desktop.ini
