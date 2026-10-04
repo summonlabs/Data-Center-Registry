@@ -3,10 +3,7 @@
 Canonical registry for data-center identities, site membership, control-plane
 generations, lifecycle state, and authoritative facility metadata.
 
-Data Center Registry is Tranche 1, repository 1 of 8 of the Data Center Control
-Plane (DCCP): the facility-wide composition and authority layer above
-Accelerated Systems Infrastructure (ASI) and Distributed Fabric Infrastructure
-(DFI). It is a portable C++20 library with a small inspection tool, no
+It is a portable C++20 library with a small inspection tool, no
 third-party dependencies, and no telemetry.
 
 ---
